@@ -1,4 +1,4 @@
-FROM python:3.11-bullseye
+FROM python:3.8-bullseye
 WORKDIR /app
 RUN apt-get update
 RUN apt-get install fluidsynth -y
