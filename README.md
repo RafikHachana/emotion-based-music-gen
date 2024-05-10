@@ -2,7 +2,7 @@
 
 
 
-This repository contains all the code and results of our project, which aims to generate music using emotional features (energy, valence, ...). All the necessary details are in the [report](./report.pdf).
+This repository contains all the code and results of our project, which aims to generate music using emotional features (energy, valence, ...). All the necessary details are in the [report](./report.pdf). You can also listen to a [sample](./sample.wav) generated using our pipeline.
 
 ![](./emotion-to-music-frontend/screen.jpeg)
 
