@@ -810,7 +810,7 @@ from transformers.models.bert.modeling_bert import BertAttention
 # device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 device = torch.device("cpu")
 
-pl_ckpt = torch.load(config.FIGARO_CHECKPOINT_PATH)
+pl_ckpt = torch.load(config.FIGARO_CHECKPOINT_PATH, map_location=torch.device('cpu'))
 
 kwargs = pl_ckpt["hyper_parameters"]
 del kwargs["flavor"]
